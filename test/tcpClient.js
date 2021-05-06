@@ -35,6 +35,6 @@ module.exports  = (port,host)=> {
         connect: connect,
         disconnect: disconnect,
         sendData: sendData,
-        isConnected: isConnected
+        isConnected: () => isConnected
     };
 };
